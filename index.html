@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>¡Hola Ania!</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Estilos renacentistas personalizados */
+			body {
+				background: url('https://images.unsplash.com/photo-1579783901586-d88db74b4fe4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+				background-size: cover;
+				font-family: 'Times New Roman', Times, serif;
+			}
+			
+			#header .logo .title {
+				font-family: 'Old English Text MT', 'Times New Roman', serif;
+				font-size: 2.5em;
+				letter-spacing: 3px;
+				color: gold;
+				text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+			}
+			
+			#main .inner header h1 {
+				font-family: 'Old English Text MT', 'Times New Roman', serif;
+				font-size: 3.5em;
+				color: gold;
+				text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+				background: rgba(100, 0, 0, 0.6);
+				padding: 20px;
+				border: 3px solid gold;
+				border-radius: 10px;
+				box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+				transition: all 0.5s ease;
+				animation: float 3s ease-in-out infinite;
+			}
+			
+			#main .inner header h1:hover {
+				transform: scale(1.05) rotate(-2deg);
+				box-shadow: 0 0 30px rgba(255, 215, 0, 0.8);
+				text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.9);
+			}
+			
+			@keyframes float {
+				0% { transform: translateY(0px); }
+				50% { transform: translateY(-10px); }
+				100% { transform: translateY(0px); }
+			}
+			
+			.tiles article {
+				background: rgba(255, 255, 255, 0.8);
+				border: 2px solid gold;
+			}
+			
+			.tiles article:hover {
+				transform: scale(1.05) rotate(2deg);
+				box-shadow: 0 0 20px gold;
+			}
+			
+			#footer {
+				background: rgba(100, 0, 0, 0.7);
+				border-top: 3px solid gold;
+			}
+			
+			/* Animaciones divertidas */
+			.ania-special {
+				position: relative;
+				display: inline-block;
+			}
+			
+			.ania-special:hover {
+				animation: dance 0.5s ease infinite;
+			}
+			
+			@keyframes dance {
+				0%, 100% { transform: rotate(0deg); }
+				25% { transform: rotate(5deg); }
+				50% { transform: rotate(-5deg); }
+				75% { transform: rotate(5deg); }
+			}
+			
+			.heart {
+				color: red;
+				display: inline-block;
+				animation: heartbeat 1.5s ease infinite;
+			}
+			
+			@keyframes heartbeat {
+				0% { transform: scale(1); }
+				25% { transform: scale(1.1); }
+				50% { transform: scale(1); }
+				75% { transform: scale(1.1); }
+				100% { transform: scale(1); }
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title ania-special">¡Hola Ania!</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">Galería de Arte</a></li>
+							<li><a href="generic.html">Mensajes Especiales</a></li>
+							<li><a href="generic.html">Curiosidades</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1 class="ania-special">¡Bienvenida <span class="heart">Ania</span>!</h1>
+								<p>Este es un sitio especial creado para ti, con el estilo elegante del Renacimiento y toques modernos divertidos. Explora y diviértete con las sorpresas que encontrarás.</p>
+							</header>
+							<section class="tiles">
+								<article class="style1 ania-special">
+									<span class="image">
+										<img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Arte Renacentista" />
+									</span>
+									<a href="generic.html">
+										<h2>Galería de Arte</h2>
+										<div class="content">
+											<p>Descubre las obras maestras del Renacimiento que inspiraron este diseño.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style2 ania-special">
+									<span class="image">
+										<img src="https://images.unsplash.com/photo-1578302758063-0ef3e048ca6a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Mensajes" />
+									</span>
+									<a href="generic.html">
+										<h2>Mensajes Secretos</h2>
+										<div class="content">
+											<p>Encuentra mensajes especiales escondidos en esta sección.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style3 ania-special">
+									<span class="image">
+										<img src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sorpresas" />
+									</span>
+									<a href="generic.html">
+										<h2>Sorpresas</h2>
+										<div class="content">
+											<p>¡Haz clic para descubrir algo inesperado!</p>
+										</div>
+									</a>
+								</article>
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Deja un mensaje</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Nombre" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Mensaje"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Enviar" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Sígueme</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-tiktok"><span class="label">TikTok</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Para Ania con <span class="heart">♥</span></li><li>Diseño: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				// Animaciones adicionales con JavaScript
+				$(document).ready(function() {
+					// Efecto al pasar el ratón sobre el título principal
+					$(".ania-special").hover(function() {
+						$(this).css("color", "gold");
+					}, function() {
+						$(this).css("color", "");
+					});
+					
+					// Efecto al hacer clic en cualquier artículo
+					$("article").click(function() {
+						$(this).effect("bounce", { times: 3 }, 300);
+					});
+					
+					// Mensaje secreto en la consola
+					console.log("%c¡Hola Ania! Este es un mensaje secreto para ti.", "color: gold; font-size: 16px; font-weight: bold;");
+				});
+			</script>
+	</body>
+</html>
